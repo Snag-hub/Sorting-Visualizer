@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: #f5f5f5;
+}
+a{
+  text-decoration: none;
+}
+.title{
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  padding: 0 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.title h1{
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 30px;
+}
+.daba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.container a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #000;
+  transition: 0.5s;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+
+.mySlides {
+	display: none;
+}
+
+body {
+	background-color: rgb(255, 235, 211);
+	font-family: Verdana, sans-serif;
+}
+
+.head {
+	margin-top: 20px;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	text-align: center;
+	font-size: 30px;
+	background-color: #6f459e;
+	color: white;
+	border-radius: 19px;
+	font-weight: bolder;
+}
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(0, 183, 255);
+	transition: 0.2s all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+}
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	margin-left: 37vw;
+	margin-top: 4vw;
+	margin-right: 1vw;
+}
+.btn2 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+}
+/* bubble Sort */
+
+
+
+
+.header {
+	font-size: 20px;
+	text-align: center;
+}
+
+#array {
+	background-color: white;
+	height: 413px;
+	width: 598px;
+	margin: auto;
+	position: relative;
+	margin-top: 64px;
+}
+
+.block {
+	width: 28px;
+	background-color: #6b5b95;
+	position: absolute;
+	bottom: 0px;
+	transition: 0.2s all ease;
+}
+
+.block_id {
+	position: absolute;
+	color: black;
+	margin-top: -20px;
+	width: 100%;
+	text-align: center;
+}

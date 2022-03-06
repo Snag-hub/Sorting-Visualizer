@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head Section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+		initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- title -->
+    <title>Shell Sort Visualizer using JavaScript</title>
+
+    <!-- linking style.css -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <!-- Body Section -->
+  <body>
+    <section class="head">Shell Sort</section>
+    <section class="data-container"></section>
+    <section id="ele"></section>
+    <div style="margin: auto; width: fit-content">
+      <!-- "Generate New Array" button -->
+      <button class="btn1" onclick="generate()" id="Button1">
+        Generate New Array
+      </button>
+
+      <!-- "Shell Sort" button -->
+      <button class="btn2" onclick="ShellSort(),disable()" id="Button2">
+        Shell Sort
+      </button>
+    </div>
+
+    <!-- linking script.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
